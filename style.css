@@ -1,0 +1,260 @@
+/* .main{
+    background-color: #23113D;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+}
+.content{
+    font-family: Gilroy-ExtraBold;
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 65px;
+    text-align: center;
+}
+.Box{
+    width: 60%;
+    padding-block: 10%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 8%;
+    padding-right: 8%;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    margin: auto; 
+    color:#31286B;
+    margin-bottom: 20px;
+}
+.line1{
+    width: 306px;
+    height: 285px;
+}
+.textArea{
+    display: block;
+}
+.vector{
+    background-image: url(./Vector.png);
+    background-size: cover;
+    width: 80px;
+    height: 40.98px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.text{
+   font-size: 35px;
+   font-weight: 400;
+   line-height: 35px;
+   color: #31286B;
+}
+.text1{
+    font-size: 40px;
+    line-height: 65px;
+}
+.text2{
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.line2{
+    width: 460.07px;
+   
+}
+.line3{
+    width: 222.59px;
+   
+}
+
+@media (max-width: 1300px) {
+.Box{
+    display: block;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+.vector{
+    text-align: center;
+}
+.line1{
+    align-self: center;
+}
+} */
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    background-color: #23113D;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+    padding: 20px;
+}
+
+.content {
+    font-family: Gilroy-ExtraBold;
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 65px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Box {
+    width: 80%;
+    max-width: 800px;
+    padding-block: 10%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 8%;
+    padding-right: 8%;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    margin: auto;
+    color: #31286B;
+    margin-bottom: 20px;
+}
+.line1{
+    width: 306px;
+    height: 285px;
+}
+.line2{
+    width: 460.07px;
+    height: 274.86px;
+   
+}
+.line3{
+    width: 327.09px;
+    height: 283.91px;
+   
+}
+.textArea {
+    display: block;
+}
+
+.vector {
+    background-image: url(./Vector.png);
+    background-size: cover;
+    width: 80px;
+    height: 40.98px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.text {
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 35px;
+    color: #31286B;
+}
+
+.text1 {
+    font-size: 40px;
+    line-height: 65px;
+    display: inline;
+    padding-bottom: -500px;
+    border-bottom: 8px solid #FF5811;
+}
+
+.text2 {
+    font-size: 20px;
+    line-height: 35px;
+}
+
+@media (max-width: 1300px) {
+    .Box {
+        display: flex;
+        flex-direction: column;
+        gap:50px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    .vector {
+        text-align: center;
+        margin: 0 auto 10px auto; 
+    }
+    .line1, .line2, .line3 {
+        width: 40%;
+        max-width: 100%;
+        height: auto;
+        align-self: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .Box {
+        display: flex;
+        flex-direction: column;
+        gap:50px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    .content {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .text1 {
+        font-size: 35px;
+        line-height: 45px;
+        border-bottom: 8px solid #FF5811;
+    }
+
+    .text2 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .line1, .line2, .line3 {
+        width: 60%;
+        /* max-width: 100%; */
+        height: auto;
+        align-self: center;
+    }
+  
+   
+}
+
+@media (max-width: 480px) {
+    .content {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .text {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .text1 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .text2 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .line1, .line2, .line3 {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        align-self: center;
+    }
+}
